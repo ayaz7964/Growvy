@@ -48,7 +48,7 @@
   display: block;
   z-index: 2;
   font-size: 6rem;
-  /* font-weight: 700; */
+ 
 }
 
 .ellipse {
@@ -67,7 +67,7 @@
   color: #00c300;
   font-size: 4rem;
   font-weight: 600;
-  /* background: #fff; */
+  
   z-index: 3;
   padding: 0 8px;
 }
@@ -157,8 +157,8 @@ p {
 }
 .Ecomerceimage {
   position: absolute;
-  left: 900px;
-  top: 1900px;
+  left: 800px;
+  top: 1820px;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -192,7 +192,7 @@ p {
 }
 .SText {
   display: block;
-  /* font-size: 6rem; */
+ 
   position: absolute;
   left: 200px;
   top: 3250px;
@@ -201,25 +201,24 @@ p {
 }
 .signin {
   display: block;
-  /* font-size: 6rem; */
+ 
   position: absolute;
   left: 800px;
   top: 3390px;
   width: 200px;
 }
 .home-right {
-  /* flex: 1; */
+
   display: flex;
   align-items: center;
   justify-content: flex-end;
 
-  /* min-width: 400px; */
 }
 
 .arrow-container {
   position: relative;
-  /* width: 500px; */
-  top: 220px;
+
+  top: 100px;
   height: 300px;
 }
 
@@ -254,7 +253,7 @@ p {
 }
 .area4 {
   display: block;
-  /* font-size: 6rem; */
+ 
   position: absolute;
   left: 40px;
   top: 3500px;
@@ -274,12 +273,59 @@ p {
 }
 .ecomImage {
   position: absolute;
-  left: 900px;
+  left: 800px;
   top: 3850px;
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
+
+button {
+  background-color: #00c300;
+}
+.arrow-svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.arrow-svg svg {
+  width: 100%;
+  height: 100%;
+}
+.growvy-script {
+  position: absolute;
+  left: 100px;
+  top: 120px;
+  font-family: "Brush Script MT", cursive, sans-serif;
+  font-size: 10rem;
+  color: #222;
+  pointer-events: none;
+  z-index: 2;
+}
+
+@media (max-width: 1100px) {
+  .home-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .home-right {
+    justify-content: flex-start;
+    margin-top: 40px;
+    min-width: 0;
+  }
+  .arrow-container {
+    
+    height: 200px;
+  }
+  .growvy-script {
+    font-size: 2.5rem;
+    left: 70px;
+    top: 70px;
+  }
+}
+
+
 .personImage {
   position: absolute;
   left: 100px;
@@ -296,44 +342,37 @@ p {
   height: 200px;
   border-radius: 50%;
 }
-button {
-  background-color: #00c300;
+
+
+.footLeft{
+    position: absolute;
+    left:100px; 
+    top: 5100px;
+    width: 200px;
+    height: 500px;
+
 }
-.arrow-svg {
-  position: absolute;
-  left: 0;
-  top: 0;
+.footCenter{
+    position: absolute;
+    left: 800px;
+    top: 5200px;
+    width: 500px;
+    height: 300px;
+}
+.footRight{
+    position: absolute;
+    left: 1200px;
+    top: 5100px;
+    width: 450px;
+    height: 300px;
 }
 
-.growvy-script {
-  position: absolute;
-  left: 100px;
-  top: 120px;
-  font-family: "Brush Script MT", cursive, sans-serif;
-  font-size: 9rem;
-  color: #222;
-  pointer-events: none;
-  z-index: 2;
+.icon a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    margin-right: 20px;
+
+
 }
 
-/* Responsive */
-@media (max-width: 1100px) {
-  .home-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .home-right {
-    justify-content: flex-start;
-    margin-top: 40px;
-    min-width: 0;
-  }
-  .arrow-container {
-    /* width: 350px; */
-    height: 200px;
-  }
-  .growvy-script {
-    font-size: 2.5rem;
-    left: 70px;
-    top: 70px;
-  }
-}

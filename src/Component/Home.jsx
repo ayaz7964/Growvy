@@ -35,7 +35,7 @@ export default function Home() {
         </div>
         <div className="home-right">
           <div className="arrow-container">
-            <svg className="arrow-svg" width="500" height="300">
+            {/* <svg className="arrow-svg" width="500" height="300">
               <polyline
                 points="20,250 200,100 350,200 480,20"
                 fill="none"
@@ -43,7 +43,8 @@ export default function Home() {
                 strokeWidth="20"
                 strokeLinejoin="round"
               />
-            </svg>
+            </svg> */}
+            <img src="footer.png" alt="Right Arrow"  className="arrow"/>
 
             <span className="growvy-script">Growvy</span>
           </div>
@@ -115,15 +116,63 @@ export default function Home() {
         <div className="ecomImage">
           <img src="ecom.png" alt="E-commerce Image" />
         </div>
-        <div className="personImage">
-          <img src="person.png" alt="Person Image" />
-        </div>
-        <div className="person">
-          <button className="btn">Schedule Call Now</button>
-          <p>
-            Join over 10k users worldwide. Start scheduling in less than 1
-            minutes.
-          </p>
+
+        <div className="footer">
+          <div className="personImage">
+            <img src="person.png" alt="Person Image" />
+          </div>
+          <div className="person">
+            <button className="btn">Schedule Call Now</button>
+            <p>
+              Join over 10k users worldwide. Start scheduling in less than 1
+              minutes.
+            </p>
+          </div>
+          <div className="footLeft">
+            <h1>Growvy</h1>
+            <p>
+              Optimize your business with smart asset management, growth
+              strategies, and cutting-edge solutions to boost sales and
+              efficiency with Growvy!
+            </p>
+            <div className="icon">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-facebook"></i>
+              </a>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+          <div className="footCenter">
+            <ul>
+              <li>About Us</li>
+              <li>Services</li>
+              <li>Plans & Pricing</li>
+              <li>Business Solutions</li>
+              <li>Success Stories</li>
+              <li> Jobs</li>
+            </ul>
+            <p>⭐⭐⭐⭐⭐ </p>
+          </div>
+          <div className="footRight">
+            <img src="footer.png" alt="Footer image" />
+          </div>
         </div>
       </div>
     </div>
