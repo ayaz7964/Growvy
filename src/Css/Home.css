@@ -5,17 +5,17 @@
   min-height: 80vh;
   background: #fff;
   padding: 40px 30px;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
 }
 
-.Headline{
-display: flex;
+.Headline {
+  display: flex;
   justify-content: space-between;
   align-items: flex-start;
   min-height: 80vh;
   background: #fff;
   padding: 60px 50px;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 1.9rem;
 }
 .home-left {
@@ -34,7 +34,7 @@ display: flex;
 
 .maximize {
   display: block;
-    font-size: 7rem;
+  font-size: 7rem;
 }
 
 .business-wrapper {
@@ -49,9 +49,6 @@ display: flex;
   z-index: 2;
   font-size: 6rem;
   /* font-weight: 700; */
-  
-
-
 }
 
 .ellipse {
@@ -67,7 +64,7 @@ display: flex;
   position: absolute;
   left: 100px;
   top: 90px;
-  color: #00C300;
+  color: #00c300;
   font-size: 4rem;
   font-weight: 600;
   /* background: #fff; */
@@ -80,7 +77,7 @@ display: flex;
 }
 
 .growvy {
-  color: #00C300;
+  color: #00c300;
   font-size: 7rem;
   font-weight: 700;
   margin-top: 50px;
@@ -97,7 +94,7 @@ display: flex;
 }
 
 .btn {
-  background: #00C300;
+  background: #00c300;
   color: #fff;
   font-size: 1.4rem;
   font-weight: 600;
@@ -112,77 +109,103 @@ display: flex;
 .btn:hover {
   background: #009900;
 }
-.jobs{
-    width: 200px;
-    position: absolute;
-    left: 100px;
-
-
+.jobs {
+  width: 200px;
+  position: absolute;
+  left: 100px;
 }
-.jobimage{
-    position: absolute;
-    left: 810px;
-    top: 1000px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.jobimage {
+  position: absolute;
+  left: 810px;
+  top: 1000px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
-.empimage{
- position: absolute;
-    left: 100px;
-    top: 1430px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.empimage {
+  position: absolute;
+  left: 100px;
+  top: 1430px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
-.employ{
-     position: absolute;
-    left: 900px;
-    top: 1500px;
-    width: 750px;
-    height: 200px;
-    border-radius: 50%;
+.employ {
+  position: absolute;
+  left: 900px;
+  top: 1500px;
+  width: 750px;
+  height: 200px;
+  border-radius: 50%;
 }
-.Ecomerce{
-    position: absolute;
-    left: 100px;
-    top: 1950px;
-    width: 700px;
-    height: 200px;
-    border-radius: 50%;
+.Ecomerce {
+  position: absolute;
+  left: 100px;
+  top: 1950px;
+  width: 700px;
+  height: 200px;
+  border-radius: 50%;
 }
-p{
-    font-size: 2.3rem;
-    color: #222;
-    margin-top: 10px;
-    width: 600px;
-    margin-bottom: 20px;
+p {
+  font-size: 2.3rem;
+  color: #222;
+  margin-top: 10px;
+  width: 600px;
+  margin-bottom: 20px;
 }
-.Ecomerceimage{
-    position: absolute;
-    left: 900px;
-    top: 1900px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.Ecomerceimage {
+  position: absolute;
+  left: 900px;
+  top: 1900px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
-.bussinessImage{
-    position: absolute;
-    left: 100px;
-    top: 2400px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.bussinessImage {
+  position: absolute;
+  left: 100px;
+  top: 2400px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
-.bussiness{
-    position: absolute;
-    left: 900px;
-    top: 2500px;
-    width: 750px;
-    height: 200px;
-    border-radius: 50%;
+.bussiness {
+  position: absolute;
+  left: 900px;
+  top: 2500px;
+  width: 750px;
+  height: 200px;
+  border-radius: 50%;
+}
+.Ltext {
+  display: block;
+  font-size: 6rem;
+
+  position: absolute;
+  left: 200px;
+  top: 3000px;
+  width: 1500px;
+
+  height: 200px;
+}
+.SText {
+  display: block;
+  /* font-size: 6rem; */
+  position: absolute;
+  left: 200px;
+  top: 3250px;
+  width: 1500px;
+  height: 200px;
+}
+.signin {
+  display: block;
+  /* font-size: 6rem; */
+  position: absolute;
+  left: 800px;
+  top: 3390px;
+  width: 200px;
 }
 .home-right {
   /* flex: 1; */
@@ -196,38 +219,85 @@ p{
 .arrow-container {
   position: relative;
   /* width: 500px; */
-  top : 220px;
+  top: 220px;
   height: 300px;
 }
 
-.area1{
+.area1 {
   position: absolute;
   left: 120px;
   right: 100px;
   top: 900px;
   width: 1400px;
   height: 200px;
-  
 }
-.area{
-    position: absolute;
-    left: 1350px;
-    top: 850px;
-    width: 250px;
-    height: 20px;
-    background-color: #00C300;
-    border-radius: 10px;
-    
+.area {
+  position: absolute;
+  left: 1350px;
+  top: 850px;
+  width: 250px;
+  height: 20px;
+  background-color: #00c300;
+  border-radius: 10px;
 }
-.right-area1{
-    position: absolute;
-    left: 100px;
-    top: 1100px;
-    width: 800px;
-    height: 200px;
+.right-area1 {
+  position: absolute;
+  left: 100px;
+  top: 1100px;
+  width: 800px;
+  height: 200px;
 }
-button{
-    background-color: #00C300;
+
+.imgArea {
+  height: 400px;
+  width: 100%;
+}
+.area4 {
+  display: block;
+  /* font-size: 6rem; */
+  position: absolute;
+  left: 40px;
+  top: 3500px;
+  width: 95%;
+  height: 200pxx;
+}
+.ecom {
+  position: absolute;
+  left: 100px;
+  top: 3900px;
+  width: 700px;
+  height: 200px;
+  border-radius: 50%;
+}
+.ebtn {
+  width: 200px;
+}
+.ecomImage {
+  position: absolute;
+  left: 900px;
+  top: 3850px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.personImage {
+  position: absolute;
+  left: 100px;
+  top: 4400px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.person {
+  position: absolute;
+  left: 930px;
+  top: 4650px;
+  width: 750px;
+  height: 200px;
+  border-radius: 50%;
+}
+button {
+  background-color: #00c300;
 }
 .arrow-svg {
   position: absolute;
@@ -239,7 +309,7 @@ button{
   position: absolute;
   left: 100px;
   top: 120px;
-  font-family: 'Brush Script MT', cursive, sans-serif;
+  font-family: "Brush Script MT", cursive, sans-serif;
   font-size: 9rem;
   color: #222;
   pointer-events: none;

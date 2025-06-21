@@ -80,17 +80,52 @@ export default function Home() {
         </div>
         <div className="Ecomerceimage">
           <img src="ecommerce.png" alt="E-commerce Image" />
-      </div>
-      <div className="bussinessImage">
-        <img src="business.png" alt="Business Image" />
-      </div>
+        </div>
+        <div className="bussinessImage">
+          <img src="business.png" alt="Business Image" />
+        </div>
         <div className="bussiness">
           <h1> I’m a Business!</h1>
-          <p>Looking for CRM or Data resources
- to boost my business.</p>
+          <p>Looking for CRM or Data resources to boost my business.</p>
           <button className="btn">Business Plans</button>
         </div>
-    </div>
+        <div className="area3">
+          <p className="Ltext">
+            Join Growvy’s 50M+ Job Seeker Community & Get Hired Faster!
+          </p>
+          <p className="SText">
+            “Build your profile, get noticed by top employers, and access
+            exclusive job opportunities tailored to your skills. Your next
+            career move starts here!”
+          </p>
+          <button className="btn signin">Sign In</button>
+        </div>
+        <div className="area4">
+          <img className="imgArea" src="area4.png" alt="Area 4 " />
+        </div>
+        <div className="ecom">
+          <h1>E-commerce Owner?</h1>
+          <p>
+            Optimize your business with smart asset management, growth
+            strategies, and cutting-edge solutions to boost sales and efficiency
+            with Growvy!
+          </p>
+          <button className="btn ebtn"> Plans</button>
+        </div>
+        <div className="ecomImage">
+          <img src="ecom.png" alt="E-commerce Image" />
+        </div>
+        <div className="personImage">
+          <img src="person.png" alt="Person Image" />
+        </div>
+        <div className="person">
+          <button className="btn">Schedule Call Now</button>
+          <p>
+            Join over 10k users worldwide. Start scheduling in less than 1
+            minutes.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
