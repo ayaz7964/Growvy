@@ -1,68 +1,379 @@
-/* :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
+.home-container {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 80vh;
+  background: #fff;
+  padding: 40px 30px;
+  font-family: "Inter", Arial, sans-serif;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.Headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 80vh;
+  background: #fff;
+  padding: 60px 50px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 1.9rem;
+}
+.home-left {
+  flex: 1;
+  max-width: 900px;
+  padding-top: 40px;
+}
+
+.headline {
+  position: relative;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #111;
+}
+
+.maximize {
+  display: block;
+  font-size: 7rem;
+}
+
+.business-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.business {
+  position: relative;
+  display: block;
+  z-index: 2;
+  font-size: 6rem;
+ 
+}
+
+.ellipse {
+  position: absolute;
+  left: -27px;
+  top: -30px;
+  rotate: -10deg;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.with {
+  position: absolute;
+  left: 100px;
+  top: 90px;
+  color: #00c300;
+  font-size: 4rem;
+  font-weight: 600;
+  
+  z-index: 3;
+  padding: 0 8px;
+}
+
+.efficiency {
+  margin-left: 10px;
+}
+
+.growvy {
+  color: #00c300;
+  font-size: 7rem;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  letter-spacing: -2px;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  color: #222;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  max-width: 420px;
+}
+
+.btn {
+  background: #00c300;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  padding: 16px 40px;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #009900;
+}
+.jobs {
+  width: 200px;
+  position: absolute;
+  left: 100px;
+}
+.jobimage {
+  position: absolute;
+  left: 710px;
+  top: 1050px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.empimage {
+  position: absolute;
+  left: 100px;
+  top: 1430px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.employ {
+  position: absolute;
+  left: 900px;
+  top: 1500px;
+  width: 750px;
+  height: 200px;
+  border-radius: 50%;
+}
+.Ecomerce {
+  position: absolute;
+  left: 100px;
+  top: 1950px;
+  width: 700px;
+  height: 200px;
+  border-radius: 50%;
+}
+p {
+  font-size: 2.3rem;
+  color: #222;
+  margin-top: 10px;
+  width: 600px;
+  margin-bottom: 20px;
+}
+.Ecomerceimage {
+  position: absolute;
+  left: 700px;
+  top: 1820px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.bussinessImage {
+  position: absolute;
+  left: 100px;
+  top: 2400px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.bussiness {
+  position: absolute;
+  left: 900px;
+  top: 2500px;
+  width: 750px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.Ltext {
+  display: block;
+  font-size: 6rem;
+
+  position: absolute;
+  left: 100px;
+  top: 3000px;
+  width: 1400px;
+
+  height: 200px;
+}
+.SText {
+  display: block;
+ 
+  position: absolute;
+  left: 100px;
+  top: 3250px;
+  width: 1300px;
+  height: 200px;
+}
+.signin {
+  display: block;
+ 
+  position: absolute;
+  left: 650px;
+  top: 3390px;
+  width: 200px;
+}
+.home-right {
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.arrow-container {
+  position: relative;
+ width: 200px;
+  top: 100px;
+  height: 300px;
+}
+
+.area1 {
+  position: absolute;
+  left: 120px;
+  right: 100px;
+  top: 950px;
+  width: 1300px;
+  height: 200px;
+}
+.area {
+  position: absolute;
+  left: 1100px;
+  top: 850px;
+  width: 250px;
+  height: 20px;
+  background-color: #00c300;
+  border-radius: 10px;
+}
+.right-area1 {
+  position: absolute;
+  left: 100px;
+  top: 1100px;
+  width: 800px;
+  height: 200px;
+}
+
+.imgArea {
+  height: 400px;
+  width: 100%;
+}
+.area4 {
+  display: block;
+ 
+  position: absolute;
+  left: 40px;
+  top: 3500px;
+  width: 95%;
+  height: 200pxx;
+}
+.ecom {
+  position: absolute;
+  left: 100px;
+  top: 3900px;
+  width: 700px;
+  height: 200px;
+  border-radius: 50%;
+}
+.ebtn {
+  width: 200px;
+}
+.ecomImage {
+  position: absolute;
+  left: 800px;
+  top: 3850px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+  background-color: #00c300;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.arrow-svg {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.arrow-svg svg {
+  width: 100%;
+  height: 100%;
+}
+.growvy-script {
+  position: absolute;
+  left: 100px;
+  top: 120px;
+  font-family: "Brush Script MT", cursive, sans-serif;
+  font-size: 10rem;
+  color: #222;
+  pointer-events: none;
+  z-index: 2;
+}
+
+@media (max-width: 1100px) {
+  .home-container {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  a:hover {
-    color: #747bff;
+  .home-right {
+    justify-content: flex-start;
+    margin-top: 40px;
+    min-width: 0;
   }
-  button {
-    background-color: #f9f9f9;
+  .arrow-container {
+    
+    height: 200px;
   }
-} */
+  .growvy-script {
+    font-size: 2.5rem;
+    left: 70px;
+    top: 70px;
+  }
+}
+
+
+.personImage {
+  position: absolute;
+  left: 100px;
+  top: 4400px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.person {
+  position: absolute;
+  left: 830px;
+  top: 4650px;
+  width: 750px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+
+.footLeft{
+    position: absolute;
+    left:100px; 
+    top: 5100px;
+    width: 200px;
+    height: 500px;
+
+}
+.footCenter{
+    position: absolute;
+    left: 700px;
+    top: 5200px;
+    width: 500px;
+    height: 300px;
+}
+.footRight{
+    position: absolute;
+    left: 1000px;
+    top: 5100px;
+    width: 400px;
+    height: 300px;
+}
+
+.icon a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    margin-right: 20px;
+
+
+}
+

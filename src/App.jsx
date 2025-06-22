@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from './Component/NavBar'
 import { Routes, Route } from 'react-router-dom'
 import Home from './Component/Home'
-
+import Jobs from './Component/Jobs'
 
 export default function App() {
   return (
@@ -11,7 +11,7 @@ export default function App() {
       <div style={{ flex: 1, overflow: 'auto' }}>
         <Routes>
           <Route path="/" element={<Home/>} />
-          <Route path="/jobs" element={<h1>Jobs Page</h1>} />
+          <Route path="/jobs" element={<Jobs/>} />
           <Route path="/success" element={<h1>Success Page</h1>} />
           <Route path="/services" element={<h1>Services Page</h1>} />
           <Route path="/pricing" element={<h1>Pricing Page</h1>} />

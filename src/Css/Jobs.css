@@ -1,0 +1,203 @@
+.Jobheadline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+
+    background-color: #8ad6a7f1;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+.head{
+    display: block;
+    font-size: 10rem;
+    font-weight: 600;
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.para{
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    color: #000000;
+    
+}
+
+.btns{
+display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.h {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    font-size: larger;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 3px solid #0d0b0b;
+    
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.h:active,
+.h.selected,
+.h:focus {
+    background: #e3f1fb;
+    color: #222;
+    border-color: #222;
+}
+
+
+.h:hover {
+    background: #f5faff;
+    color: #111;
+    border-color: #111;
+}
+
+.jLtext {
+  display: block;
+  font-size: 6rem;
+  font-weight: 800;
+
+  position: absolute;
+  left: 100px;
+  top: 900px;
+  width: 1400px;
+
+  height: 200px;
+}
+.jSText {
+  display: block;
+ 
+  position: absolute;
+  left: 100px;
+  top: 1150px;
+  width: 1300px;
+  height: 200px;
+}
+.jsignin {
+  display: block;
+ 
+  position: absolute;
+  left: 650px;
+  top: 1300px;
+  width: 200px;
+}
+
+.topJob{
+    display: block;
+    position: absolute;
+    top: 1450px;
+    left: 679px;
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+
+.job{
+    display:  flex;
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 40px;
+    gap: 500px;
+    
+}
+.jbtn{
+    width: 300px;
+}
+
+.job-con{
+   position: absolute;
+   top: 1550px;
+   left: 0px;
+   width: 1500px;
+}
+
+.jimgArea {
+  height: 400px;
+  width: 100%;
+}
+.jarea4 {
+  display: block;
+ 
+  position: absolute;
+  left: 40px;
+  top: 4000px;
+  width: 95%;
+  height: 200pxx;
+}
+
+.jright-area1{
+     position: absolute;
+  left: 100px;
+  top: 4450px;
+  width: 800px;
+  height: 200px;
+}
+
+.jjobimage {
+  position: absolute;
+  left: 710px;
+  top: 4300px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.jfootLeft{
+    position: absolute;
+    left:100px; 
+    top: 4850px;
+    width: 200px;
+    height: 300px;
+
+}
+.jfootCenter{
+    position: absolute;
+    left: 800px;
+    top: 5010px;
+    width: 500px;
+    height: 300px;
+    
+}
+li{
+    font-weight: 900;
+    font-size: large;
+    font-size: 1.3rem;
+}
+.jfootRight{
+    position: absolute;
+    left: 1000px;
+    top: 4900px;
+    width: 400px;
+    height: 300px;
+}
+
+.jt1{
+    font-size: 5rem;
+}
+
+.icon a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    margin-right: 20px;
+
+
+}
