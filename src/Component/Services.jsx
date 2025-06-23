@@ -77,69 +77,65 @@ export default function Services() {
         </div>
       </div>
 
-      
-         <div className="PCon">
-          <div className="personImageS">
-            <img src="person.png" alt="Person Image" />
-          </div>
-          <div className="personS">
-            <button className="btn">Schedule Call Now</button>
-            <p>
-              Join over 10k users worldwide. Start scheduling in less than 1
-              minutes.
-            </p>
-          </div>
-          </div>
-<div className="footer">
-          <div className="footLeftS">
-            <h1>Growvy</h1>
-            <p>
-              Optimize your business with smart asset management, growth
-              strategies, and cutting-edge solutions to boost sales and
-              efficiency with Growvy!
-            </p>
-            <div className="icon">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa-brands fa-facebook"></i>
-              </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa-brands fa-instagram"></i>
-              </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa-brands fa-linkedin"></i>
-              </a>
-            </div>
-          </div>
-          <div className="footCenterS">
-            <ul>
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Plans & Pricing</li>
-              <li>Business Solutions</li>
-              <li>Success Stories</li>
-              <li> Jobs</li>
-            </ul>
-            <p>⭐⭐⭐⭐⭐ </p>
-          </div>
-          <div className="footRightS">
-            <img src="footer.png" alt="Footer image" />
+      <div className="PCon">
+        <div className="personImageS">
+          <img src="person.png" alt="Person Image" />
+        </div>
+        <div className="personS">
+          <button className="btn">Schedule Call Now</button>
+          <p>
+            Join over 10k users worldwide. Start scheduling in less than 1
+            minutes.
+          </p>
+        </div>
+      </div>
+      <div className="footer">
+        <div className="footLeftS">
+          <h1>Growvy</h1>
+          <p>
+            Optimize your business with smart asset management, growth
+            strategies, and cutting-edge solutions to boost sales and efficiency
+            with Growvy!
+          </p>
+          <div className="icon">
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-facebook"></i>
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
           </div>
         </div>
-      
-
-      
+        <div className="footCenterS">
+          <ul>
+            <li>About Us</li>
+            <li>Services</li>
+            <li>Plans & Pricing</li>
+            <li>Business Solutions</li>
+            <li>Success Stories</li>
+            <li> Jobs</li>
+          </ul>
+          <p>⭐⭐⭐⭐⭐ </p>
+        </div>
+        <div className="footRightS">
+          <img src="footer.png" alt="Footer image" />
+        </div>
+      </div>
     </div>
   );
 }
