@@ -5,7 +5,7 @@ import Home from './Component/Home'
 import Jobs from './Component/Jobs'
 import Services from './Component/Services'
 import Pricing from './Component/Pricing'
-
+import Success from './Component/Success'
 export default function App() {
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
@@ -14,7 +14,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/jobs" element={<Jobs/>} />
-          <Route path="/success" element={<h1>Success Page</h1>} />
+          <Route path="/success" element={<Success/>} />
           <Route path="/services" element={<Services/>} />
           <Route path="/pricing" element={<Pricing/>} />
         </Routes>
