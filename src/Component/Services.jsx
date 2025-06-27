@@ -13,13 +13,23 @@ export default function Services() {
         </p>
       </div>
       <div className="headImageS">
-        <img src="headImageS.png" alt="HeadImage" />
+        <div className="headConB">
+          <img src="headImageS1.png" alt="HeadImage" className="headImage" />
+          <button className="btn ha">Plans</button>
+        </div>
+         <div className="headConB">
+          <img src="headImageS2.png" alt="HeadImage" className="headImage" />
+          <button className="btn ha">Plans</button>
+        </div>
+         <div className="headConB">
+          <img src="headImageS3.png" alt="HeadImage" className="headImage" />
+          <button className="btn ha">Plans</button>
+        </div>
+
+        {/* <img src="headImageS2.png" alt="Head Image 2 " />
+        <img src="headImageS3.png" alt="Head Image 3 " /> */}
       </div>
-      <div className="headBtn">
-        <button className="btn ha">Plans</button>
-        <button className="btn ha">Plans</button>
-        <button className="btn ha">Plans</button>
-      </div>
+      
       <div className="Sbanner">
         <p className="LSText">Join over 10k users worldwide</p>
         <button className="btn vbp"> View Pricing</button>
@@ -82,8 +92,8 @@ export default function Services() {
           <img src="person.png" alt="Person Image" />
         </div>
         <div className="personS">
-          <button className="btn">Schedule Call Now</button>
-          <p>
+          <button className="btn shbtn">Schedule Call Now</button>
+          <p className="perText"> 
             Join over 10k users worldwide. Start scheduling in less than 1
             minutes.
           </p>
@@ -132,9 +142,8 @@ export default function Services() {
           </ul>
           <p>⭐⭐⭐⭐⭐ </p>
         </div>
-        <div className="footRightS">
-          <img src="footer.png" alt="Footer image" />
-        </div>
+
+        <img src="footer.png" alt="Footer image" className="jfootRightImg" />
       </div>
     </div>
   );

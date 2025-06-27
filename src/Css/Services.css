@@ -1,77 +1,346 @@
-
-.headBtn{
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
-    gap: 250px;
+.headBtn {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
 }
 
-
-.ha{
-    width: 200px;
+.headImageS {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  gap: 100px;
+  margin-top: 50px;
 }
-.Sbanner{
-    display: flex ;
-    align-items: center;
-    justify-content: center;
+
+.ha {
+  width: 200px;
+}
+
+.Sbanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.LSText {
+  font-weight: 1000;
+  font-size: 5rem;
+  width: 1100px;
+}
+
+.vbp {
+  width: 300px;
+}
+
+.pibContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.pih {
+  font-weight: 1000;
+  font-size: 4.7rem;
+}
+
+span {
+  font-weight: bold;
+}
+
+.gsCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.gsT {
+  font-size: 4rem;
+}
+
+.gsb {
+  position: relative;
+  left: 400px;
+}
+
+.gsp {
+  text-align: end;
+  font-size: 2.5rem;
+}
+
+.PCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.personImageS img {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.personS {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.footer {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footLeftS {
+  min-width: 220px;
+}
+
+.footCenterS {
+  min-width: 180px;
+}
+
+.footRightS {
+  position: relative;
+  right: 200px;
+}
+
+.headConB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  gap: 20px;
+}
+
+.headImage {
+  height: 300px;
+  width: 300px;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.jfootRightImg {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Tablet screens */
+@media (max-width: 1024px) {
+  .headBtn {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .headImageS {
     flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 40px;
+  }
+
+  .headConB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  gap: 20px;
 }
-.LSText{
-    font-weight: 1000;
-    font-size: 5rem;
-    width: 1100px;
-}
-.vbp{
+
+  .headImage {
+    width: 60vw;
+    max-width: 320px;
+    height: auto;
+  }
+  .LSText {
+    font-size: 2.2rem;
+    width: 90vw;
+    text-align: center;
+  }
+  .vbp {
+    width: 60vw;
+    max-width: 220px;
+  }
+  .pibContainer,
+  .gsCon,
+  .PCon {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .pih,
+  .gsT {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .gsp {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .gsb {
+    left: 0;
+    margin: 16px auto 0 auto;
+    display: block;
+    position: static;
+  }
+  .personImageS img {
+    width: 60vw;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
+  }
+  img {
+    width: 60vw;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+  }
+  .footRightS {
+    right: 0;
+    position: static;
+    margin: 0 auto;
+  }
+  .jfootRightImg {
+    width: 60vw;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .pipara , .gsp{
+    text-align: center;
     width: 300px;
+    margin-left: 150px;
+    font-size: 1.5rem;
+  }
 }
 
-.pibContainer{
-    display: flex;
-    justify-content: center;
+/* Mobile screens */
+@media (max-width: 600px) {
+  .headBtn {
+    flex-direction: column;
+    gap: 12px;
     align-items: center;
-}
-.pih{
-    font-weight: 1000;
-    font-size: 4.7rem;
-}
-span{
-    font-weight: bold;
-}
-
-.gsCon{
-    display: flex;
-    justify-content: center;
+  }
+  .headImageS {
+    flex-direction: column;
     align-items: center;
+    gap: 20px;
+    height: auto;
+    margin-top: 20px;
+  }
 
-}
-.gsT{
-    font-size: 4rem;
-}
-.gsb{
-    position: relative;
-    left: 400px;
-}
-
-.gsp{
-    text-align: end;
-    font-size: 2.5rem;
+  .headConB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  gap: 20px;
 }
 
-
-
-.PCon{
-    display: flex;
-    justify-content: center;
+  .headImage {
+    width: 90vw;
+    max-width: 220px;
+    height: auto;
+  }
+  .ha {
+    width: 90vw;
+    max-width: 220px;
+  }
+  .LSText {
+    font-size: 1.2rem;
+    width: 98vw;
+    text-align: center;
+  }
+  .vbp {
+    width: 90vw;
+    max-width: 180px;
+  }
+  .pibContainer,
+  .gsCon,
+  .PCon {
+    flex-direction: column;
     align-items: center;
-    gap: 0px;
+    gap: 12px;
+  }
+  .pih,
+  .gsT {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-left: 50px;
+  }
+  .gsp {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .pipara ,.gsp{
+    text-align: center;
+    width: 300px;
+    margin-left: 150px;
+    font-size: 1.5rem;
+  }
+  .shbtn{
+    margin-left: 100px;
+  }
+  .perText{
+    width: 300px;
+    margin-left: 50px;
+  }
+  .gsb {
+    left: 0;
+    margin: 10px auto 0 auto;
+    display: block;
+    position: static;
+  }
+  .personImageS img {
+    width: 90vw;
+    max-width: 180px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 60vw;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+  .footRightS {
+    right: 0;
+    position: static;
+    margin: 0 auto;
+  }
+  .jfootRightImg {
+    width: 90vw;
+    max-width: 180px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 
-.footer{
-    display: flex;
-    align-content: center;
-}
-.footRightS{
-    position: relative;
-    right: 200px;
-}
