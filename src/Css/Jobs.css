@@ -161,6 +161,7 @@ display: flex;
 .topJob{
     text-align: center;
     font-size: 3rem;
+    margin-left: 200px;
     font-weight: 800;
 
 }
@@ -168,6 +169,7 @@ display: flex;
 .job{
     display:  flex;
     margin: 30px;
+    margin-left: 250px;
     padding: 20px;
     border: 5px solid black;
     border-radius: 40px;
