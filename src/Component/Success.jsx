@@ -34,7 +34,7 @@ export default function Success() {
        <div className="footer">
         <div className="footLeftS">
           <h1>Growvy</h1>
-          <p>
+          <p >
             Optimize your business with smart asset management, growth
             strategies, and cutting-edge solutions to boost sales and efficiency
             with Growvy!

@@ -268,13 +268,14 @@ export default function Pricing() {
         </div>
       </div>
 
+     
       <div className="PCon">
         <div className="personImageS">
           <img src="person.png" alt="Person Image" />
         </div>
         <div className="personS">
-          <button className="btn">Schedule Call Now</button>
-          <p>
+          <button className="btn shbtn">Schedule Call Now</button>
+          <p className="perText"> 
             Join over 10k users worldwide. Start scheduling in less than 1
             minutes.
           </p>
