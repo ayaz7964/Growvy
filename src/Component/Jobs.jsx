@@ -36,64 +36,64 @@ export default function Jobs() {
         <p className="topJob">Top Jobs</p>
         <div className="job-con">
           <div className="job">
-            <p>Business Developer</p>
+            <p className="Job-text">Business Developer</p>
             <button className="btn jbtn">Apply Now </button>
           </div>
 
           <div className="job">
-            <p>Finance Manager</p>
+            <p className="Job-text">Finance Manager</p>
             <button className="btn jbtn">Apply Now </button>
           </div>
           <div className="job">
-            <p>Human Resource Manager</p>
+            <p className="Job-text">Human Resource Manager</p>
             <button className="btn jbtn">Apply Now </button>
           </div>
           <div className="job">
-            <p>Software Engineer</p>
+            <p className="Job-text">Software Engineer</p>
             <button className="btn jbtn">Apply Now </button>
           </div>
           <div className="job">
-            <p>Web Developer</p>
+            <p className="Job-text" >Web Developer</p>
             <button className="btn jbtn">Apply Now </button>
           </div>
           <div className="job">
-            <p> Graphic Designer / Ui / Ux</p>
+            <p className="Job-text"> Graphic Designer / Ui / Ux</p>
             <button className="btn jbtn">Apply Now </button>
           </div>
           <div className="job">
-            <p>SEO Expert</p>
+            <p className="Job-text">SEO Expert</p>
             <button className="btn jbtn">Apply Now </button>
           </div>
           <div className="job">
-            <p>Android Developer</p>
+            <p className="Job-text">Android Developer</p>
             <button className="btn jbtn">Apply Now </button>
           </div>
           <div className="job">
-            <p>Floor Manager</p>
+            <p className="Job-text" >Floor Manager</p>
             <button className="btn jbtn">Apply Now </button>
           </div>
           <div className="job">
-            <p> Sales Representative</p>
+            <p className="Job-text"> Sales Representative</p>
             <button className="btn jbtn">Apply Now </button>
           </div>
           <div className="job">
-            <p>Data Entry Operator</p>
+            <p className="Job-text">Data Entry Operator</p>
             <button className="btn jbtn">Apply Now </button>
           </div>
           <div className="job">
-            <p>Delivery Man</p>
+            <p className="Job-text">Delivery Man</p>
             <button className="btn jbtn">Apply Now </button>
           </div>
           <div className="job">
-            <p>Urdu / English Call Center Agent</p>
+            <p className="Job-text">Urdu / English Call Center Agent</p>
             <button className="btn jbtn">Apply Now </button>
           </div>
           <div className="job">
-            <p> Morning Shift Jobs for Females</p>
+            <p className="Job-text"> Morning Shift Jobs for Females</p>
             <button className="btn jbtn">Apply Now </button>
           </div>
           <div className="job">
-            <p>Accountant</p>
+            <p className="Job-text">Accountant</p>
             <button className="btn jbtn">Apply Now </button>
           </div>
         </div>
