@@ -20,7 +20,7 @@ export default function Jobs() {
         <button className="h">Accounts & Finance</button>
         <button className="h">Customer Service</button>
       </div>
-      <div className="jarea3">
+      <div className="jconarea">
         <p className="jLtext">
           Join Growvy’s 50M+ Job Seeker Community & Get Hired Faster!
         </p>
@@ -32,88 +32,85 @@ export default function Jobs() {
         <button className="btn jsignin">Sign In</button>
       </div>
 
-      <div>
+      <div className="job-con  JobCon  ">
         <p className="topJob">Top Jobs</p>
-        <div className="job-con">
-          <div className="job">
-            <p className="Job-text">Business Developer</p>
-            <button className="btn jbtn">Apply Now </button>
-          </div>
-
-          <div className="job">
-            <p className="Job-text">Finance Manager</p>
-            <button className="btn jbtn">Apply Now </button>
-          </div>
-          <div className="job">
-            <p className="Job-text">Human Resource Manager</p>
-            <button className="btn jbtn">Apply Now </button>
-          </div>
-          <div className="job">
-            <p className="Job-text">Software Engineer</p>
-            <button className="btn jbtn">Apply Now </button>
-          </div>
-          <div className="job">
-            <p className="Job-text" >Web Developer</p>
-            <button className="btn jbtn">Apply Now </button>
-          </div>
-          <div className="job">
-            <p className="Job-text"> Graphic Designer / Ui / Ux</p>
-            <button className="btn jbtn">Apply Now </button>
-          </div>
-          <div className="job">
-            <p className="Job-text">SEO Expert</p>
-            <button className="btn jbtn">Apply Now </button>
-          </div>
-          <div className="job">
-            <p className="Job-text">Android Developer</p>
-            <button className="btn jbtn">Apply Now </button>
-          </div>
-          <div className="job">
-            <p className="Job-text" >Floor Manager</p>
-            <button className="btn jbtn">Apply Now </button>
-          </div>
-          <div className="job">
-            <p className="Job-text"> Sales Representative</p>
-            <button className="btn jbtn">Apply Now </button>
-          </div>
-          <div className="job">
-            <p className="Job-text">Data Entry Operator</p>
-            <button className="btn jbtn">Apply Now </button>
-          </div>
-          <div className="job">
-            <p className="Job-text">Delivery Man</p>
-            <button className="btn jbtn">Apply Now </button>
-          </div>
-          <div className="job">
-            <p className="Job-text">Urdu / English Call Center Agent</p>
-            <button className="btn jbtn">Apply Now </button>
-          </div>
-          <div className="job">
-            <p className="Job-text"> Morning Shift Jobs for Females</p>
-            <button className="btn jbtn">Apply Now </button>
-          </div>
-          <div className="job">
-            <p className="Job-text">Accountant</p>
-            <button className="btn jbtn">Apply Now </button>
-          </div>
+        <div className="job">
+          <p className="Job-text">Business Developer</p>
+          <button className="btn jbtn">Apply Now </button>
         </div>
 
+        <div className="job">
+          <p className="Job-text">Finance Manager</p>
+          <button className="btn jbtn">Apply Now </button>
+        </div>
+        <div className="job">
+          <p className="Job-text">Human Resource Manager</p>
+          <button className="btn jbtn">Apply Now </button>
+        </div>
+        <div className="job">
+          <p className="Job-text">Software Engineer</p>
+          <button className="btn jbtn">Apply Now </button>
+        </div>
+        <div className="job">
+          <p className="Job-text">Web Developer</p>
+          <button className="btn jbtn">Apply Now </button>
+        </div>
+        <div className="job">
+          <p className="Job-text"> Graphic Designer / Ui / Ux</p>
+          <button className="btn jbtn">Apply Now </button>
+        </div>
+        <div className="job">
+          <p className="Job-text">SEO Expert</p>
+          <button className="btn jbtn">Apply Now </button>
+        </div>
+        <div className="job">
+          <p className="Job-text">Android Developer</p>
+          <button className="btn jbtn">Apply Now </button>
+        </div>
+        <div className="job">
+          <p className="Job-text">Floor Manager</p>
+          <button className="btn jbtn">Apply Now </button>
+        </div>
+        <div className="job">
+          <p className="Job-text"> Sales Representative</p>
+          <button className="btn jbtn">Apply Now </button>
+        </div>
+        <div className="job">
+          <p className="Job-text">Data Entry Operator</p>
+          <button className="btn jbtn">Apply Now </button>
+        </div>
+        <div className="job">
+          <p className="Job-text">Delivery Man</p>
+          <button className="btn jbtn">Apply Now </button>
+        </div>
+        <div className="job">
+          <p className="Job-text">Urdu / English Call Center Agent</p>
+          <button className="btn jbtn">Apply Now </button>
+        </div>
+        <div className="job">
+          <p className="Job-text"> Morning Shift Jobs for Females</p>
+          <button className="btn jbtn">Apply Now </button>
+        </div>
+        <div className="job">
+          <p className="Job-text">Accountant</p>
+          <button className="btn jbtn">Apply Now </button>
+        </div>
         <div className="jarea4">
           <img className="jimgArea" src="area4.png" alt="Area 4 " />
         </div>
-        </div>
-
-        <div className="jright-area1">
-          <h1>I'm a Job Seeker!</h1>
-          <p> Looking for job according to my skills and requirements.</p>
-          <button className="btn jobs">Jobs</button>
-        </div>
-        <div className="jjobimage">
-          <img src="jobs.png" alt="Job Image" />
+        <div className="jricon">
+          <div className="jright-area1">
+            <h1 className="jLtex">I'm a Job Seeker!</h1>
+            <p className="jSTex">
+              {" "}
+              Looking for job according to my skills and requirements.
+            </p>
+            <button className="btn jobsbtn">Jobs</button>
+          </div>
+          <img src="jobs.png" alt="Job Image" className="jjobimage" />
         </div>
 
         <div className="footer">
-          
           <div className="jfootLeft">
             <h1 className="jt1">Growvy</h1>
             <p className="jt2">
@@ -156,11 +153,10 @@ export default function Jobs() {
             </ul>
             <p>⭐⭐⭐⭐⭐ </p>
           </div>
-          <div className="jfootRight">
-            <img src="footer.png" alt="Footer image" />
-          </div>
+
+          <img src="footer.png" alt="Footer image" className="jfootRightImg " />
         </div>
-      
+      </div>
     </div>
   );
 }

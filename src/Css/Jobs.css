@@ -11,6 +11,36 @@
   padding: 0 16px;
   box-sizing: border-box;
 }
+.jobsbtn{
+  width: 200px;
+
+}
+
+.jt1{
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.JobCon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+
+  
+}
+
+.jconarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px 0 0 0;
+    text-align: center;
+  }
 
 .Jobheadline{
     display: flex;
@@ -23,6 +53,19 @@
     background-color: #8ad6a7f1;
     border-bottom-left-radius: 40%;
     border-bottom-right-radius: 40%;
+}
+.jt2{
+  width: 400px;
+  font-size: 1.7rem;
+}
+
+.jfootCenter{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  font-weight: 900;
+  font-size: 1.3rem;
+  margin-top: 200px;
 }
 .head{
     display: block;
@@ -84,40 +127,39 @@ display: flex;
 }
 
 .jLtext {
-  display: block;
+  width: 1500px;
   font-size: 6rem;
   font-weight: 800;
-
-  position: absolute;
-  left: 100px;
-  top: 900px;
-  width: 1400px;
-
-  height: 200px;
+   
 }
 .jSText {
-  display: block;
- 
-  position: absolute;
-  left: 100px;
-  top: 1150px;
-  width: 1300px;
+  
+   text-align: center;
+   width: 1300px;
   height: 200px;
 }
 .jsignin {
-  display: block;
- 
-  position: absolute;
-  left: 650px;
-  top: 1300px;
+  
   width: 200px;
 }
 
+/* .jfootLeft{
+  display: flex;
+  flex-direction: column;
+ 
+  width: 250px;
+  margin: 20px;
+}
+
+.jfootRight{
+  width: 200px;
+  display: flex;
+  margin-top: 50px;
+  mar
+} */
+
 .topJob{
-    display: block;
-    position: absolute;
-    top: 1450px;
-    left: 679px;
+    text-align: center;
     font-size: 3rem;
     font-weight: 800;
 
@@ -144,37 +186,138 @@ display: flex;
 }
 
 .jimgArea {
-  height: 400px;
+  height: 500px;
   width: 100%;
 }
 .jarea4 {
-  display: block;
- 
-  position: absolute;
-  left: 40px;
-  top: 4000px;
-  width: 95%;
-  height: 200pxx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.jright-area1{
-     position: absolute;
-  left: 100px;
-  top: 4450px;
-  width: 800px;
-  height: 200px;
+.jricon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px 0;
+  border-radius: 32px;
+  /* Remove fixed height for responsiveness */
+}
+
+.jright-area1 {
+  text-align: left;
+  font-size: 2.2rem;
+  flex: 1 1 400px;
+  max-width: 600px;
+  padding: 0 24px;
+}
+
+.jright-area1 h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.jright-area1 p {
+  font-size: 1.4rem;
+  margin-bottom: 32px;
+}
+
+.jobsbtn {
+  width: 220px;
+  padding: 16px 0;
+  font-size: 1.3rem;
+  border-radius: 40px;
+  background: #00b300;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.jobsbtn:hover {
+  background: #009900;
 }
 
 .jjobimage {
-  position: absolute;
-  left: 710px;
-  top: 4300px;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  border-radius: 30%;
+  object-fit: contain;
+  /* margin: 0 24px; */
+  flex-shrink: 0;
+  /* display: block; */
 }
 
-.jfootLeft{
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  align-content: center;
+  gap: 10px;
+  
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .jricon {
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 0;
+    margin: 32px 0;
+  }
+  .jright-area1 {
+    text-align: center;
+    padding: 0 8px;
+    font-size: 1.5rem;
+    max-width: 90vw;
+  }
+  .jright-area1 h1 {
+    font-size: 2.2rem;
+  }
+  .jright-area1 p {
+    font-size: 1.1rem;
+    margin-bottom: 24px;
+  }
+  .jjobimage {
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .jricon {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 20px 0;
+    border-radius: 16px;
+  }
+  .jright-area1 {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0 4px;
+    max-width: 98vw;
+  }
+  .jright-area1 h1 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  .jright-area1 p {
+    font-size: 1rem;
+    width: 200px;
+    margin-bottom: 16px;
+  }
+  .jobsbtn
+
+/* .jfootLeft{
     position: absolute;
     left:100px; 
     top: 4850px;
@@ -183,13 +326,11 @@ display: flex;
 
 }
 .jfootCenter{
-    position: absolute;
-    left: 800px;
-    top: 5010px;
+     
     width: 500px;
     height: 300px;
     
-}
+} */
 li{
     font-weight: 900;
     font-size: large;
@@ -199,12 +340,14 @@ li{
     position: absolute;
     left: 1000px;
     top: 4900px;
+
     width: 400px;
     height: 300px;
 }
 
 .jt1{
     font-size: 5rem;
+    font-weight: 900;
 }
 
 .icon a{
@@ -252,24 +395,42 @@ li{
     margin: 0 auto;
     text-align: center;
   }
-  .jarea3 {
+  .jconarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
     align-items: center;
     margin: 32px 0 0 0;
     text-align: center;
   }
+
+  .JobCon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  
+ 
+}
   .jLtext {
     font-size: 2rem;
+    width: 400px;
     margin-bottom: 10px;
     text-align: center;
   }
   .jSText {
     font-size: 1.1rem;
     margin-bottom: 16px;
+    width: 400px;
+    margin-left: 20px;
     text-align: center;
   }
   .jsignin {
     margin: 0 auto;
-    display: block;
+    
   }
   .topJob {
     font-size: 2rem;
@@ -285,6 +446,7 @@ li{
   .job {
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 10px;
     padding: 12px;
     border-radius: 18px;
@@ -326,7 +488,7 @@ li{
     width: 120px;
     height: 120px;
   }
-  .footer {
+  /* .footer {
     flex-direction: column;
     gap: 16px;
     padding: 20px 0;
@@ -343,8 +505,8 @@ li{
   .jfootRight img {
     max-width: 120px;
     margin: 0 auto;
-  }
-}
+  }*/
+} 
 
 /* Mobile */
 @media (max-width: 600px) {
@@ -392,15 +554,30 @@ li{
     margin: 0 auto;
     text-align: center;
   }
-  .jarea3 {
+.JobCon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+ 
+}
+
+  .jconarea {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 20px 0 0 0;
+   
     align-items: center;
     text-align: center;
   }
   .jLtext, .jSText {
     font-size: 1rem;
-    max-width: 100%;
+    width: 350px;
     margin: 0 0 10px 0;
+    margin-left: 20px;
     text-align: center;
   }
   .jsignin {
@@ -408,7 +585,7 @@ li{
     padding: 8px 16px;
     border-radius: 8px;
     margin: 0 auto;
-    display: block;
+   
   }
   .topJob {
     font-size: 1.3rem;
@@ -465,7 +642,7 @@ li{
     width: 90px;
     height: 90px;
   }
-  .footer {
+  /* .footer {
     flex-direction: column;
     gap: 10px;
     padding: 12px 0;
@@ -482,5 +659,157 @@ li{
   .jfootRight img {
     max-width: 100px;
     margin: 0 auto;
+  } */
+}
+
+}
+
+
+/* Footer Styles */
+.footer {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 48px 0 32px 0;
+  border-top: 2px solid #e0e0e0;
+  margin-top: 64px;
+  flex-wrap: wrap;
+}
+
+.jfootLeft {
+  flex: 1 1 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 32px;
+}
+
+.jt1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+.jt2 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 24px;
+  max-width: 320px;
+}
+
+.icon {
+  display: flex;
+  gap: 18px;
+  margin-top: 12px;
+}
+
+.icon a {
+  color: #222;
+  font-size: 2.2rem;
+  transition: color 0.2s;
+}
+
+.icon a:hover {
+  color: #00b300;
+}
+
+.jfootCenter {
+  flex: 1 1 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 32px;
+  font-size: 1.1rem;
+}
+
+.jfootCenter ul {
+  list-style: disc inside;
+  margin: 0 0 18px 0;
+  padding: 0;
+}
+
+.jfootCenter li {
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.jfootCenter p {
+  font-size: 2rem;
+  color: #00b300;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.jfootRightImg {
+  flex: 1 1 180px;
+  max-width: 220px;
+  margin-right: 32px;
+  margin-top: 12px;
+  object-fit: contain;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 32px 0 24px 0;
+  }
+  .jfootLeft,
+  .jfootCenter,
+  .jfootRightImg {
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    max-width: 98vw;
+  }
+  .jfootRightImg {
+    margin-top: 16px;
+    max-width: 120px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 0 10px 0;
+  }
+  .jfootLeft,
+  .jfootCenter {
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+  }
+  .jfootRightImg {
+   width: 100px;
+  justify-self: flex-start;
+  background-color: #111;
+  
+  }
+  .jt1 {
+    font-size: 1.5rem;
+  }
+  .jt2 {
+    font-size: 0.95rem;
+    max-width: 98vw;
+  }
+  .icon a {
+    font-size: 1.5rem;
+  }
+  .jfootCenter ul {
+    font-size: 0.95rem;
+  }
+  .jfootCenter p {
+    font-size: 1.2rem;
   }
 }

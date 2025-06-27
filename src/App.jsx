@@ -6,6 +6,7 @@ import Jobs from './Component/Jobs'
 import Services from './Component/Services'
 import Pricing from './Component/Pricing'
 import Success from './Component/Success'
+import Footer from './Component/Footer'
 export default function App() {
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
