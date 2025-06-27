@@ -126,3 +126,91 @@
 .start-btn:hover {
   background: #0e9e17;
 }
+
+
+/* Responsive styles for Pricing section */
+
+/* Tablet screens */
+@media (max-width: 1024px) {
+  .phead {
+    height: 350px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+  }
+  .prcing {
+    font-size: 4rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  .pHeadText,
+  .Recruitment,
+  .recText {
+    width: 90vw;
+    margin-left: 0;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .pricing-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .pricing-card-outer,
+  .pricing-card {
+    width: 95vw;
+    max-width: 420px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 600px) {
+  .phead {
+    height: 220px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding: 10px 0;
+  }
+  .prcing {
+    font-size: 2.2rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  .pHeadText,
+  .Recruitment,
+  .recText {
+    width: 98vw;
+    margin-left: 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .minhead img {
+    width: 90vw;
+    max-width: 220px;
+    height: auto;
+  }
+  .pricing-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin: 20px 0;
+  }
+  .pricing-card-outer,
+  .pricing-card {
+    width: 98vw;
+    max-width: 340px;
+    padding: 0;
+  }
+  .pricing-card {
+    padding: 18px 8px 14px 8px;
+    height: auto;
+  }
+  .pricing-card p,
+  .pricing-card ul {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .start-btn {
+    font-size: 1.1rem;
+    padding: 10px 18px;
+  }
+}

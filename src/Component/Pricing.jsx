@@ -323,8 +323,8 @@ export default function Pricing() {
           </ul>
           <p>⭐⭐⭐⭐⭐ </p>
         </div>
-        <div className="footRightS">
-          <img src="footer.png" alt="Footer image" />
+        <div >
+          <img src="footer.png" alt="Footer image" className="jfootRightImg"   />
         </div>
       </div>
     </div>
