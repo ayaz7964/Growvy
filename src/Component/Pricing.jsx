@@ -322,7 +322,7 @@ export default function Pricing() {
             <li>Success Stories</li>
             <li> Jobs</li>
           </ul>
-          <p>⭐⭐⭐⭐⭐ </p>
+          <p className="stars">⭐⭐⭐⭐⭐ </p>
         </div>
         <div >
           <img src="footer.png" alt="Footer image" className="jfootRightImg"   />

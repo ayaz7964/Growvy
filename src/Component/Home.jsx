@@ -17,7 +17,7 @@ export default function Home() {
                   rx="210"
                   ry="60"
                   stroke="#00C300"
-                  strokeWidth="7"
+                  strokeWidth="7" 
                   fill="none"
                 />
               </svg>
@@ -35,22 +35,13 @@ export default function Home() {
         </div>
         <div className="home-right">
           <div className="arrow-container">
-            {/* <svg className="arrow-svg" width="500" height="300">
-              <polyline
-                points="20,250 200,100 350,200 480,20"
-                fill="none"
-                stroke="#00C300"
-                strokeWidth="20"
-                strokeLinejoin="round"
-              />
-            </svg> */}
-            <img src="footer.png" alt="Right Arrow"  className="arrow"/>
+            <img src="footer.png" alt="Right Arrow" className="arrow" />
 
             <span className="growvy-script">Growvy</span>
           </div>
         </div>
-
-        <div className="area"></div>
+      </div>
+      {/* <div className="area"></div>
         <div className="area1">
           “Growvy is built to streamline hiring, optimize assets, and drive
           business growth. Our mission is to create a tech-driven ecosystem
@@ -174,7 +165,7 @@ export default function Home() {
             <img src="footer.png" alt="Footer image" />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

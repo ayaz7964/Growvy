@@ -1,10 +1,70 @@
+.home-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+
+}
+
+.Headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 80vh;
+  background: #fff;
+  padding: 60px 50px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 1.9rem;
+}
+
+.home-left {
+  flex: 1;
+  max-width: 900px;
+  padding-top: 40px;
+}
+
+.maximize {
+  display: block;
+  font-size: 7rem;
+}
+
+.business {
+ position: relative;
+  display: block;
+  z-index: 2;
+  font-size: 6rem;
+ 
+}
+
+.ellipse {
+  display: flex;
+  rotate: -10deg;
+  z-index: 2;
+  pointer-events: none;
+}
+.with {
+  display: flex;
+  color: #00c300;
+  font-size: 4rem;
+  font-weight: 600;
+  z-index: 3;
+  padding: 0 8px;
+}
+
+.growvy {
+  display: flex;
+  color: #00c300;
+  font-size: 7rem;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
 /* .home-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   min-height: 80vh;
   background: #fff;
-  padding: 40px 30px;
+  padding: 40px 30px;    
   font-family: "Inter", Arial, sans-serif;
 }
 
@@ -116,8 +176,8 @@
 }
 .jobimage {
   position: absolute;
-  left: 810px;
-  top: 1000px;
+  left: 710px;
+  top: 1050px;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -157,7 +217,7 @@ p {
 }
 .Ecomerceimage {
   position: absolute;
-  left: 800px;
+  left: 700px;
   top: 1820px;
   width: 200px;
   height: 200px;
@@ -179,14 +239,15 @@ p {
   height: 200px;
   border-radius: 50%;
 }
+
 .Ltext {
   display: block;
   font-size: 6rem;
 
   position: absolute;
-  left: 200px;
+  left: 100px;
   top: 3000px;
-  width: 1500px;
+  width: 1400px;
 
   height: 200px;
 }
@@ -194,16 +255,16 @@ p {
   display: block;
  
   position: absolute;
-  left: 200px;
+  left: 100px;
   top: 3250px;
-  width: 1500px;
+  width: 1300px;
   height: 200px;
 }
 .signin {
   display: block;
  
   position: absolute;
-  left: 800px;
+  left: 650px;
   top: 3390px;
   width: 200px;
 }
@@ -217,7 +278,7 @@ p {
 
 .arrow-container {
   position: relative;
-
+ width: 200px;
   top: 100px;
   height: 300px;
 }
@@ -226,13 +287,13 @@ p {
   position: absolute;
   left: 120px;
   right: 100px;
-  top: 900px;
-  width: 1400px;
+  top: 950px;
+  width: 1300px;
   height: 200px;
 }
 .area {
   position: absolute;
-  left: 1350px;
+  left: 1100px;
   top: 850px;
   width: 250px;
   height: 20px;
@@ -336,7 +397,7 @@ button {
 }
 .person {
   position: absolute;
-  left: 930px;
+  left: 830px;
   top: 4650px;
   width: 750px;
   height: 200px;
@@ -354,16 +415,16 @@ button {
 }
 .footCenter{
     position: absolute;
-    left: 800px;
+    left: 700px;
     top: 5200px;
     width: 500px;
     height: 300px;
 }
 .footRight{
     position: absolute;
-    left: 1200px;
+    left: 1000px;
     top: 5100px;
-    width: 450px;
+    width: 400px;
     height: 300px;
 }
 

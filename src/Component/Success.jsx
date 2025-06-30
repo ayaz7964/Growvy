@@ -72,7 +72,7 @@ export default function Success() {
             <li>Success Stories</li>
             <li> Jobs</li>
           </ul>
-          <p>⭐⭐⭐⭐⭐ </p>
+          <p className="stars">⭐⭐⭐⭐⭐ </p>
         </div>
         <div className="footRightS">
           <img src="footer.png" alt="Footer image" />

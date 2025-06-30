@@ -5,7 +5,7 @@ export default function Jobs() {
   return (
     <div className="jobs-container">
       <div className="Jobheadline">
-        <h1 className="head">Jobs</h1>
+        <h1 className="prcing">Jobs</h1>
         <p className="para">
           {" "}
           "Join our team and shape the future—explore exciting career
@@ -151,7 +151,7 @@ export default function Jobs() {
               <li>Success Stories</li>
               <li> Jobs</li>
             </ul>
-            <p>⭐⭐⭐⭐⭐ </p>
+            <p >⭐⭐⭐⭐⭐ </p>
           </div>
 
           <img src="footer.png" alt="Footer image" className="jfootRightImg " />
